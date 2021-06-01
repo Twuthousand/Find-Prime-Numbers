@@ -2,7 +2,7 @@ prev_numbers = []
 
 prime_numbers = []
 
-for i in range(1, 100):
+for i in range(1, 1000000):
     prev_numbers.append(i)
     for n in prev_numbers:
         if n == 1:
